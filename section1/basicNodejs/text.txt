@@ -1,0 +1,12 @@
+const fs = require("fs");
+const text = fs.readFileSync(__dirname + "/text.txt", "utf-8");
+console.log(text);
+console.log("hi  iam vishal");
+
+// const fs = require("fs");
+
+// // Read text.txt safely
+// const text = fs.readFileSync(__dirname + "/text.txt", "utf-8");
+
+// console.log(text);
+// console.log("hi iam vishal");
